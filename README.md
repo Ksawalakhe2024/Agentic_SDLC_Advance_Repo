@@ -45,10 +45,10 @@ Success indicators:
 
 ```mermaid
 flowchart LR
-    A[AI Agent] -->|HTTP JSON| S[MCP Server (Spring Boot)]
-    S -->|JPA / JDBC| DB[(PostgreSQL)]
-    subgraph Optional Existing App
-      APP[Task Mgmt Backend]
+    AI[AI Agent] -->|HTTP JSON| MCP[MCP Spring Boot Server]
+    MCP -->|JPA / JDBC| DB[(PostgreSQL)]
+    subgraph ExistingApp[Optional Existing App]
+        APP[Task Mgmt Backend]
     end
     APP <-->|Shared DB| DB
 ```
