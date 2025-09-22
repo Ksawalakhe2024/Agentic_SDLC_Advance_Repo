@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Test Task 1",
+    "description": "First test task",
+    "status": "NEW",
+    "priority": 2,
+    "dueDate": "2025-10-15T12:00:00Z"
+  },
+  {
+    "title": "Test Task 2",
+    "description": "Second test task",
+    "status": "IN_PROGRESS",
+    "priority": 1,
+    "dueDate": "2025-10-20T09:00:00Z"
+  }
+]
