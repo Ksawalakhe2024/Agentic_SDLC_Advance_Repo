@@ -1,37 +1,35 @@
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
 # Maven
-/target/
+target/
 !.mvn/wrapper/maven-wrapper.jar
 
 # Gradle
-/build/
 .gradle/
-!gradle/wrapper/gradle-wrapper.jar
+build/
 
-# IntelliJ IDEA
-.idea/
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ
 *.iml
-*.iws
-*.ipr
+.idea/
 out/
 
 # VS Code
 .vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
-
 # Logs
 *.log
 
-# Environment files
-.env
+# OS generated
+.DS_Store
+Thumbs.db
 
-# Others
-node_modules/
+# Sensitive files
+*.env
+
+# Other
+# Exclude database and generated files
+*.h2.db
+*.mv.db
